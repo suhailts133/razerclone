@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "razer";
+    src: url("../fonts/RazerF5.woff") format('woff');
+}
+@font-face {
+    font-family: "razer-light";
+    src: url("../fonts/RazerF5Thin.woff") format('woff');
+}
+
+
+.sec2{
+    margin-top: 10px;
+}
+
+
+section{
+    width: 1520px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* position: relative; */
+}
+.sec1{
+    margin-top: 0px;
+}
+.info{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'razer';
+    padding: 3.57rem;
+}
+.info-1{
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: white;
+    
+}
+
+.info-2{
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+    font-family: 'razer-light';
+    font-size: 1.75rem;
+}
+
+.info-links{
+    padding: 10px;
+}
+
+.in{
+    display: inline-block;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    padding-left: 11px;
+    padding-right: 22px;
+}
+
+.right-arrow{
+    color: #00ff00;
+}
+
+
+.sec3-info-1{
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: black;
+    
+}
+
+.sec3-info-2{
+    margin: 0;
+    padding-top: 10px;
+    color: black;
+    font-family: 'razer-light';
+    font-size: 1.75rem;
+
+}
+
+.sec3-in{
+    display: inline-block;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    padding-left: 11px;
+    padding-right: 22px;
+}
+
+.sec3-info-links{
+    padding: 10px;
+}
+
+.sec3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.grid-info-1{
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: white;
+    
+}
+
+.grid-info-2{
+    margin: 0;
+    padding-top: 14px;
+    color: white;
+    font-family: 'razer-light';
+    font-size: 21px;
+}
+
+.grid-info-links{
+    padding: 14px;
+}
+
+.grid-in{
+    display: inline-block;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding-left: 11px;
+    padding-right: 22px;
+}
+
+
+
+.d3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-parts, .grid-parts2 {
+    width: 755px;
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+.grid-parts {
+    margin-right: 5px; 
+}
+
+.grid-parts2 {
+    margin-left: 5px;
+}
