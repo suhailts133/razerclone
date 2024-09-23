@@ -12,10 +12,15 @@ header{
     /* border-bottom: 1px solid #00ff00; */
 }
 
+@font-face {
+    font-family: 'cairo';
+    src: url('../fonts/cairo2.woff') format('woff');
+}
+
 .navbar a{
     text-decoration: none;
-    color: #fff;
-    font-family: "Titillium Web";
+    color: rgb(187, 187, 187);
+    font-family: "cairo";
 }
 
 .navbar{
@@ -47,6 +52,8 @@ header{
 .search{
     position: relative;
     top:-1px;
+    width: 17px;
+    height: 20px;
 }
 
 .nav-links{
