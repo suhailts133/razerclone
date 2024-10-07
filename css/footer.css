@@ -18,9 +18,9 @@
     position: absolute;
     background-color: #111111;
     
-   height: 410px;
+   height: 407px;
    width: 100%;
-   z-index: 100;
+   z-index: 1;
 }
 
 
